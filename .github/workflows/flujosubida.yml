@@ -62,6 +62,6 @@ jobs:
           echo "La contrasena es :${{env.password}}"
           
       # variable abierta
-      - name: Variables abiertas
+      - name: Variable abiertas
         run: |
           echo "Imprimiendo variables abiertas como :${{vars.version_de_mi_proyecto}}"
