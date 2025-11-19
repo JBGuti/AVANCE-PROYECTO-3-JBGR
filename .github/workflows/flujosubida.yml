@@ -61,3 +61,7 @@ jobs:
           echo "El usuario es :${{env.user}}"
           echo "La contrasena es :${{env.password}}"
           
+      # variable abierta
+      - name: Variables abiertas
+        run: |
+          echo "Imprimiendo variables abiertas como :${{vars.version_de_mi_proyecto}}"
