@@ -42,5 +42,5 @@ jobs:
       - name: Presentacion
         run: |
           echo "Mis nombres son :${{env.nombres}}"
-          echo "Mis apellidos son :${{env.apellidos}}
+          echo "Mis apellidos son :${{env.apellidos}}"
           echo "Mi edad es :${{env.edad}}"
